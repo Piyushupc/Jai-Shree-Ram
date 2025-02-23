@@ -1,0 +1,145 @@
+body {
+    background-color: #FEF3C7;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #FCD34D;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    color: #C2410C;
+    font-size: 24px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hero img {
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.teachings, .gallery {
+    margin-top: 40px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.gallery img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+footer {
+    background-color: #C2410C;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #C2410C;
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    width: 20%;
+    max-width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.content h3 {
+    margin-top: 20px;
+    color: #F59E0B;
+}
+
+.content ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #444;
+}
+
+
+
+
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    color: #C2410C;
+    text-align: center;
+}
+
+.content ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #444;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
