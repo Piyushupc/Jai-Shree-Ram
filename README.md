@@ -20,7 +20,7 @@ JavaScript – Enhancing interactivity.
 bash
 Copy
 Edit
-git clone https://github.com/your-username/shree-ram-website.git
+git clone https:https://github.com/Piyushupc/Jai-Shree-Ram
 2️⃣ Open the index.html file in your browser.
 3️⃣ Navigate through different sections using the menu.
 
